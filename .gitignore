@@ -1,0 +1,57 @@
+# 依赖目录 - Dependencies
+node_modules/
+*/node_modules/
+**/node_modules/
+
+# 构建输出 - Build outputs
+.next/
+dist/
+build/
+out/
+
+# 日志文件 - Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境配置文件 - Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 操作系统生成的文件 - OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE 配置文件 - IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Yarn相关 - Yarn related
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# 临时文件 - Temporary files
+*.tmp
+*.temp
+
+# Graph Protocol 相关 - Graph Protocol related
+generated/
+*/generated/
+subgraph.yaml.backup
+
+# TypeScript 编译输出 - TypeScript build output
+*.tsbuildinfo
